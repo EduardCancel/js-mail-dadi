@@ -16,13 +16,13 @@ console.log(email_list);
 
 // users input
 
-const eamil_users = prompt(`Write your email address here`)
-console.log(eamil_users);
+const email_users = prompt(`Write your email address here`)
+console.log(email_users);
 
 // loop
 for (let i = 0; i < email_list.length; i++){
     this_email = email_list[i]
-    if (this_email === email_list){
+    if (this_email === email_users){
         invited = true
     }
 }
